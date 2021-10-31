@@ -1,45 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>My HTML GitHub Blog</title>
+
+	<style>
+		body {font-family: Arial narrow, Helvetica, sans-serif; background-color: #023047;}
+		a {color: #ffb703;}
+		a.one {text-align:center; display:block; color: #fb8500;}
+		h1 {text-align:center; color: #219ebc;}
+		h2 {text-align:center; color: #219ebc;}
+		h3 {text-align:center; color: #8ecae6;}
+		h4 {color: #8ecae6;}
+		hr {border: 3px solid #8ecae6; border-radius: 1px;}
+		iframe {display: block; margin: 0 auto;}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item-left {
+  flex: 25%;
+}
+
+.flex-item-center {
+  flex: 25%
+}
+
+.flex-item-center2 {
+  flex: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.flex-item-right {
+  flex: 25%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+	</style>
+
+</head>
 <body>
-<h1>Brian Suite</h1>
 
-<p>Welcome to my small site! Here you can catch up what I've been up to or what's on my mind.</p>
+<div class="flex-container">
+<div class="flex-item-left">&nbsp;
+</div>
 
-<h2>Random Thoughts / Updates</h2>
+<div class="flex-item-center">
 
-<h3>September 22, 2018</h3>
-<ul>
-<li>Went to HSR Hsinchu, so many people getting ready to go home.</li>
-<li>Decided to play some good ol' Batman Arkham City. Still a wonderful game!</li>
-</ul>
+<a name="top"></a>
+	<p style="padding-top: 5px;">&nbsp;</p>
 
-<h3>September 21, 2018</h3>
-<ul>
-<li>Been really itching to build a computer, but prices are still a tad bit high for me.</li>
-<li>Gave Firefox browser another shot, but still not as fast as Chrome.</li>
-</ul>
+	<hr>
+	<h1>My HTML GitHub Blog</h1>
+	<hr>
 
-<h3>September 20, 2018</h3>
-<ul>
-<li>Reading up the reviews of the latest RTX 2080 and it seems like it's pretty much the GTX 1080 Ti. Not gambling my PC budget now, especially when my GTX 1070 is still doing just fine!</li>
-<li>I regret purchasing a matcha condiment for coffee. It has no match flavor to it.</li>
-<li>Not too clear why, but I'm still feeling a bit grumpy. Maybe it's the hunger that's doing it.</li>
-</ul>
+	<h2>Fifth Post</h2>
+	<h3>October 30, 2021</h3>
+	<img src="bear.jpg" width="100%">
+	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis laoreet tellus ac vehicula. Aenean ut sem id felis convallis auctor at quis libero. <a href="#">Pellentesque sem mauris</a>, finibus at nisl eget, fringilla malesuada augue. Nam sed faucibus ipsum. Proin eu purus tellus. Integer id sagittis nunc. Nunc sit amet lacus rhoncus, pharetra justo at, sollicitudin magna. Morbi varius semper est, vitae ornare enim convallis at. Sed ac massa lorem. Vestibulum vel tincidunt elit. Duis feugiat gravida feugiat. Nulla nec tristique enim. Aliquam erat volutpat. Aliquam ac felis at ante efficitur maximus quis a augue. Etiam venenatis erat non dolor dapibus ultricies.</h4>
+	<h5><a class="one" href="#top">Back to top</a></h5>
 
-<h3>September 19, 2018</h3>
-<ul>
-<li>Anger is still around. Why can't people keep things simple?</li>
-<li>I like to blame things on "bad luck" when things just don't go my way. I really need to change that.</li>
-<li>Feeling super sore at the arms when attempted to do convicts' workout routine.</li>
-<li>Felt super angry and it seeped out to a few people, regretting it right now.</li>
-</ul>
+	<hr>
+	<h2>Fourth Post</h2>
+	<h3>October 29, 2021</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lhas0w4ZotM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis laoreet tellus ac vehicula. Aenean ut sem id felis convallis auctor at quis libero. Pellentesque sem mauris, finibus at nisl eget, fringilla malesuada augue. Nam sed faucibus ipsum. Proin eu purus tellus. Integer id sagittis nunc. Nunc sit amet lacus rhoncus, pharetra justo at, sollicitudin magna. Morbi varius semper est, vitae ornare enim convallis at. Sed ac massa lorem. Vestibulum vel tincidunt elit. Duis feugiat gravida feugiat. Nulla nec tristique enim. Aliquam erat volutpat. Aliquam ac felis at ante efficitur maximus quis a augue. Etiam venenatis erat non dolor dapibus ultricies.</h4>
+	<h5><a class="one" href="#top">Back to top</a></h5>
 
-<h3>September 18, 2018</h3>
-<ul>
-<li>Watched "Better Call Saul" - loving the build up, but wish the pacing went a smidge faster.</li>
-<li>Got iOS 12 running on both my iPhone and iPad - working great!</li>
-<li>Ordered a new domain "briansuite.gq" - for this site!</li>
-</ul>
+	<hr>
+	<h2>Third Post</h2>
+	<h3>October 28, 2021</h3>
+	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis laoreet tellus ac vehicula. Aenean ut sem id felis convallis auctor at quis libero. Pellentesque sem mauris, finibus at nisl eget, fringilla malesuada augue. Nam sed faucibus ipsum. Proin eu purus tellus. Integer id sagittis nunc. Nunc sit amet lacus rhoncus, pharetra justo at, sollicitudin magna. Morbi varius semper est, vitae ornare enim convallis at. Sed ac massa lorem. Vestibulum vel tincidunt elit. Duis feugiat gravida feugiat. Nulla nec tristique enim. Aliquam erat volutpat. Aliquam ac felis at ante efficitur maximus quis a augue. Etiam venenatis erat non dolor dapibus ultricies.</h4>
+	<h5><a class="one" href="#top">Back to top</a></h5>
+
+	<hr>
+	<h2>Second Post</h2>
+	<h3>October 27, 2021</h3>
+	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis laoreet tellus ac vehicula. Aenean ut sem id felis convallis auctor at quis libero. Pellentesque sem mauris, finibus at nisl eget, fringilla malesuada augue. Nam sed faucibus ipsum. Proin eu purus tellus. Integer id sagittis nunc. Nunc sit amet lacus rhoncus, pharetra justo at, sollicitudin magna. Morbi varius semper est, vitae ornare enim convallis at. Sed ac massa lorem. Vestibulum vel tincidunt elit. Duis feugiat gravida feugiat. Nulla nec tristique enim. Aliquam erat volutpat. Aliquam ac felis at ante efficitur maximus quis a augue. Etiam venenatis erat non dolor dapibus ultricies.</h4>
+	<h5><a class="one" href="#top">Back to top</a></h5>
+
+	<hr>
+	<h2>First Post</h2>
+	<h3>October 26, 2021</h3>
+	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis laoreet tellus ac vehicula. Aenean ut sem id felis convallis auctor at quis libero. Pellentesque sem mauris, finibus at nisl eget, fringilla malesuada augue. Nam sed faucibus ipsum. Proin eu purus tellus. Integer id sagittis nunc. Nunc sit amet lacus rhoncus, pharetra justo at, sollicitudin magna. Morbi varius semper est, vitae ornare enim convallis at. Sed ac massa lorem. Vestibulum vel tincidunt elit. Duis feugiat gravida feugiat. Nulla nec tristique enim. Aliquam erat volutpat. Aliquam ac felis at ante efficitur maximus quis a augue. Etiam venenatis erat non dolor dapibus ultricies.</h4>
+	<h5><a class="one" href="#top">Back to top</a></h5>
+
+</div>
+
+<div class="flex-item-center2">
+	<p style="padding-top: 5px;">&nbsp;</p>
+	<hr>
+	<a name="about"></a>
+	<h2>About</h2>
+	<h4>Just a random person online trying to write a simple HTML static website.</h4>
+</div>
+
+  <div class="flex-item-right">&nbsp;</div>
+</div>
 
 </body>
 </html>
