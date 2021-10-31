@@ -14,7 +14,22 @@
 		h3 {text-align:center; color: #8ecae6;}
 		h4 {color: #8ecae6;}
 		hr {border: 3px solid #8ecae6; border-radius: 1px;}
-		iframe {display: block; margin: 0 auto;}
+
+		.video-container {
+			position:relative;
+			padding-bottom:56.25%;
+			padding-top:30px;
+			height:0;
+			overflow:hidden;
+		}
+
+		.video-container iframe, .video-container object, .video-container embed {
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+		}
 
 * {
   box-sizing: border-box;
@@ -75,7 +90,7 @@
 	<hr>
 	<h2>Fourth Post</h2>
 	<h3>October 29, 2021</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lhas0w4ZotM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/Lhas0w4ZotM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis laoreet tellus ac vehicula. Aenean ut sem id felis convallis auctor at quis libero. Pellentesque sem mauris, finibus at nisl eget, fringilla malesuada augue. Nam sed faucibus ipsum. Proin eu purus tellus. Integer id sagittis nunc. Nunc sit amet lacus rhoncus, pharetra justo at, sollicitudin magna. Morbi varius semper est, vitae ornare enim convallis at. Sed ac massa lorem. Vestibulum vel tincidunt elit. Duis feugiat gravida feugiat. Nulla nec tristique enim. Aliquam erat volutpat. Aliquam ac felis at ante efficitur maximus quis a augue. Etiam venenatis erat non dolor dapibus ultricies.</h4>
 	<h5><a class="one" href="#top">Back to top</a></h5>
 
